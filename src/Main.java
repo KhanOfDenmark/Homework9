@@ -4,11 +4,11 @@ public class Main {
 
         //Task#1
         int[] payments = new int[5];
-        payments[0] = 32000;
-        payments[1] = 28000;
-        payments[2] = 30000;
-        payments[3] = 29000;
-        payments[4] = 31000;
+        payments[0] = 32592;
+        payments[1] = 28519;
+        payments[2] = 30410;
+        payments[3] = 25173;
+        payments[4] = 31684;
         int sum = 0;
         for (int element:payments){
             sum += element;
@@ -34,7 +34,7 @@ public class Main {
         System.out.println("#2 ***");
 
         //Task#3
-        float averageValue = (float)(sum/payments.length);
+        float averageValue = (float)sum/payments.length;
         System.out.println("Средняя сумма трат за месяц составила "
                 +averageValue +" рублей");
         System.out.println("#3 ***");
